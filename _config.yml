@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Mingkai Sheng"
 description              : "A Master student of University of Chinese Academy of Sciences and currently working on scientific research at Zhijiang Laboratory. Focusing on LLM and Multi-modal."
-repository               : "shengmingkai/shengmingkai.github.io"
+repository               : "mingkaisheng/mingkaisheng.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -29,7 +29,7 @@ author:
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=sog0rcwAAAAJ"
   email            : "shengmingkai22@mails.ucas.ac.cn"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Mingkai-Sheng"
   uri              :
   bitbucket        :
   codepen          :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "shengmingkai"
+  github           : "mingkaisheng"
   google_plus      :
   keybase          :
   instagram        :
