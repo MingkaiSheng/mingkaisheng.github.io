@@ -21,7 +21,7 @@ Jian Zhu, **Mingkai Sheng**, Mingda Ke, Zhangmin Huang, Jingfei Chang
 - `NeurIPS 2024` [TODO](), **Mingkai Sheng** \| [![](https://img.shields.io/github/stars/Zain-Jiang/Dict-TTS?style=social&label=Code+Stars)](https://github.com/Zain-Jiang/Dict-TTS)
 - ``IJCAI 2024`` <span style="color:red">(**Oral**)</span> [Title Name](), **Mingkai Sheng** \| [![](https://img.shields.io/github/stars/luping-liu/PNDM?style=social&label=Code+Stars)](https://github.com/luping-liu/PNDM)
 
-## 📚 Visual Question Answering (VQA）
+## 📚 Visual Question Answering
 - ``ACL 2024`` [TODO](), **Mingkai Sheng** \|
 
 ## 🎼 Understanding Generation
