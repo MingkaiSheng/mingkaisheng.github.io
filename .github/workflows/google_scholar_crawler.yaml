@@ -22,7 +22,7 @@ jobs:
         git init
         git config --local user.name "${GITHUB_ACTOR}"
         echo "${GITHUB_ACTOR}"
-        echo "secrets.GITHUB_TOKEN"
+        echo "${secrets.GITHUB_TOKEN}"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         echo "${remote_repo}"
         git add *.json
