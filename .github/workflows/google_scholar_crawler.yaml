@@ -23,10 +23,13 @@ jobs:
         git config --local user.name "${GITHUB_ACTOR}"
         echo "${GITHUB_ACTOR}"
         echo "${{ secrets.GITHUB_TOKEN }}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        echo "${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}"
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         echo "${remote_repo}"
         git add *.json
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
       env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
